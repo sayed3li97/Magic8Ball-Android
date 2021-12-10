@@ -1,14 +1,14 @@
 # Magic8Ball
-Simple Android Magic 8 Ball app. One Activity that displays a random prediction to answer the user question. The App randomly choose an answer from an array and display it to the user when the user clicks on the text in the middle of the screen.
+Simple Android Magic 8 Ball app. One Activity displays a random prediction to answer the user question. The App randomly chooses an answer from an array and shows it to the user when they click on the text in the middle of the screen.
 
 # Screenshots 
 <img src="/screenshots/screenshot1.png" width="220" height="400"> <img src="/screenshots/screenshot2.png" width="220" height="400"> 
 <img src="/screenshots/screenshot3.png" width="220" height="400"> 
 
-# Step to re-crearte 
+# Step to re-create 
 1. Create a new project in Android Studio (Choose the Empty Activity)
 2. Navigate to app/res/layout/activity_main.xml
-3. Open the "Text" view and the replace the xml code with the below code 
+3. Open the "TextView" and replace the XML code with the below code 
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -34,8 +34,8 @@ Simple Android Magic 8 Ball app. One Activity that displays a random prediction 
 </android.support.constraint.ConstraintLayout>
 ```
 
-4. Open the java file for the main activity by opening the MainActivity.java from the following path app/java/"The first folder"/MainActivity.java
-5. Replace the code in that file with the below code ("Dont remove the first line starting with package")
+4. Open the java file for the main Activity by opening the MainActivity.java from the following path app/java/"The first folder"/MainActivity.java
+5. Replace the code in that file with the below code ("Don't remove the first line starting with the package")
 
 ```
 
